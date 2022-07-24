@@ -271,6 +271,13 @@ body{
 	padding: 0;
 }
 
+/*.items a.search {
+		left: 20px;
+	background-image: url(../img/icons/search.png);
+}
+
+*/
+
 .copyrightSection{
 	background-color: #2980b9;
 	color: #fff;
