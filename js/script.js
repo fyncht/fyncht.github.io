@@ -14,6 +14,22 @@ $(document).ready(function() {
 		showCursor: false
 	});
 
+
+	 $(document).ready(function() {
+ 
+	  $(".owl-carousel").owlCarousel({
+	    autoPlay : 3000,
+	    stopOnHover : true,
+	    navigation:true,
+	    paginationSpeed : 1000,
+	    goToFirstSpeed : 2000,
+	    singleItem : true,
+	    autoHeight : true
+	  });
+	 
+	})
+
+/*
 	$('.owl-carousel').owlCarousel({
 	    loop: true,
 	    margin:10,
@@ -30,9 +46,9 @@ $(document).ready(function() {
 	        }
 	    }
 
-	});
+	});*/
 
-	
+
 
 	$("#navigation li a").click(function(e){
 		e.preventDeafault();
