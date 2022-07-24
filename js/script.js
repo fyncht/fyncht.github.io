@@ -1,3 +1,9 @@
+$(window).on("load",function(){
+
+	$(".loader").fadeOut(2000);
+})
+
+
 $(document).ready(function() {
 
 	$('#slides').superslides({
@@ -20,12 +26,13 @@ $(document).ready(function() {
 	  $(".owl-carousel").owlCarousel({
 	    autoPlay : 3000,
 	    margin:10,
-	    stopOnHover : true,
-	    navigation:true,
+	    loop:true,
 	    paginationSpeed : 1000,
 	    goToFirstSpeed : 2000,
 	    singleItem : true,
 	    autoHeight : true,
+	    navSpeed: 700,
+      	navText: ['', '']
 	  });
 	 
 	})
@@ -34,7 +41,6 @@ $(document).ready(function() {
 	$('.owl-carousel').owlCarousel({
 	    loop: true,
 	    margin:10,
-	    nav: true,
 	    responsive:{
 	        0:{
 	            items:1
@@ -78,6 +84,7 @@ $(document).ready(function() {
 			body.removeClass("fixedNav");
 		}
 	}
+
 
 /*	$(".items").isotope({
 	    	filter: '*',
