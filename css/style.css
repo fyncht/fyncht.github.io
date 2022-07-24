@@ -71,11 +71,11 @@ body{
 }
 .col-md-5{
 	margin-top:10px;
-	margin-bottom: px;
+	margin-bottom: 20px;
 }
 
 .infoSection{
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .logoImage {
@@ -85,6 +85,14 @@ body{
 .contactSection{
 	background-color: #2980b9;
 	color: #fff;
+}
+
+.productSection{
+	margin-top: 100px;
+}
+.itemsContainer{
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .chart{
@@ -158,6 +166,7 @@ body{
 .items li {
 	display: inline-block;
 	padding: 5px;
+
 }
 
 .itemsContainer {
