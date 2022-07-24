@@ -106,7 +106,7 @@ body{
 
 .standartSection .row {
 	text-align: center;
-	padding-bottom: 25px;
+	padding-bottom: 0;
 	color: #fff;
 	width: 100%;
 }
