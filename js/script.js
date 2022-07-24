@@ -19,6 +19,7 @@ $(document).ready(function() {
  
 	  $(".owl-carousel").owlCarousel({
 	    autoPlay : 3000,
+	    margin:10,
 	    stopOnHover : true,
 	    navigation:true,
 	    paginationSpeed : 1000,
