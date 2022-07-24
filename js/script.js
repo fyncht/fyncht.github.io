@@ -1,6 +1,8 @@
 $(window).on("load",function(){
 
-	$(".loader").fadeOut(2000);
+	$(".loader .inner").fadeOut(500, function(){
+		$(".loader").fadeOut(750);
+	});
 })
 
 

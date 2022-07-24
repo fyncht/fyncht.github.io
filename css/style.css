@@ -90,6 +90,13 @@ body{
 .productSection{
 	margin-top: 50px;
 }
+
+.standartSection{
+	padding: 50px 0;
+
+	background-color: rgba(0,0,0,0.4);
+	color: #fff;
+}
 .itemsContainer{
 	margin-top: 25px;
 	margin-bottom: 25px;
