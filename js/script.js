@@ -25,7 +25,7 @@ $(document).ready(function() {
 	    paginationSpeed : 1000,
 	    goToFirstSpeed : 2000,
 	    singleItem : true,
-	    autoHeight : true
+	    autoHeight : true,
 	  });
 	 
 	})
