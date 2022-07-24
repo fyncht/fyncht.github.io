@@ -87,6 +87,14 @@ body{
 	color: #fff;
 }
 
+.productSection{
+	margin-top: 100px;
+}
+.itemsContainer{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
 .chart{
 	position: relative;
 	width: 70px;
